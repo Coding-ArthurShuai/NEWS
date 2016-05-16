@@ -1,0 +1,42 @@
+    //
+    //  PrefixHeader.pch
+
+    //  Copyright © 2016年 itheima. All rights reserved.
+    //
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "UIView+HRExtention.h"
+#define KStatusHeight 20
+#define KNavBarHeight 44
+#define KTabBarHeight 49
+#define KScreenWith [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.Height
+    // MARK - 测试颜色
+#define HRRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+
+#define HRRGBColor(r, g, b) [UIColor colorWithRed:arc4random_uniform(r)/255.0 green:arc4random_uniform(g)/255.0 blue:arc4random_uniform(b)/255.0 alpha:1.0]
+
+
+    // MARK: - 控制打印的宏
+#ifdef DEBUG
+
+    // log 是专门用来在测试的时候进行输出,但是在发布应用的时候不要有这种打印信息
+    // 1.可能会被拒
+    // 2.打印操作也是非常费性能的
+#define HRLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define HRLog(...)
+
+#endif
+
+
+
+#endif
+
+#endif /* PrefixHeader_pch */

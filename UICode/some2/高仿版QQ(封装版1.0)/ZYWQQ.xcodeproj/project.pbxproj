@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E2CAE394916633D06AAD070 /* Pods_ZYWQQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 286697BBA5A8F4A674B2BBD2 /* Pods_ZYWQQ.framework */; };
+		6321B3E51C7B01E00018A20E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B3E41C7B01E00018A20E /* main.m */; };
+		6321B3E81C7B01E00018A20E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B3E71C7B01E00018A20E /* AppDelegate.m */; };
+		6321B3F01C7B01E00018A20E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6321B3EF1C7B01E00018A20E /* Assets.xcassets */; };
+		6321B3F31C7B01E00018A20E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6321B3F11C7B01E00018A20E /* LaunchScreen.storyboard */; };
+		6321B3FE1C7B01E10018A20E /* ZYWQQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B3FD1C7B01E10018A20E /* ZYWQQTests.m */; };
+		6321B4091C7B01E10018A20E /* ZYWQQUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B4081C7B01E10018A20E /* ZYWQQUITests.m */; };
+		6321B4231C7B26ED0018A20E /* ZYWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B4221C7B26ED0018A20E /* ZYWMainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6321B4261C7B27770018A20E /* ZYWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B4251C7B27770018A20E /* ZYWRootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6321B4291C7B28970018A20E /* ZYWMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B4281C7B28970018A20E /* ZYWMessageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6321B42C1C7B28BF0018A20E /* ZYWContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B42B1C7B28BF0018A20E /* ZYWContactViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6321B42F1C7B28DD0018A20E /* ZYWDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321B42E1C7B28DD0018A20E /* ZYWDynamicViewController.m */; settings = {ASSET_TAGS = (); }; };
+		633C7B051C7C003300880682 /* ZYWContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C7B041C7C003300880682 /* ZYWContainerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		637A944C1C7C09D9004CB24F /* ZYWSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A944B1C7C09D9004CB24F /* ZYWSideView.m */; settings = {ASSET_TAGS = (); }; };
+		637A944F1C7C0E7E004CB24F /* UIView+SHCZExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A944E1C7C0E7E004CB24F /* UIView+SHCZExt.m */; settings = {ASSET_TAGS = (); }; };
+		63AFC8341C7C17FC000141AA /* ZYWSideTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFC8331C7C17FC000141AA /* ZYWSideTableView.m */; settings = {ASSET_TAGS = (); }; };
+		63AFC8371C7C1C24000141AA /* MYDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFC8361C7C1C24000141AA /* MYDataViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6321B3FA1C7B01E10018A20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6321B3D81C7B01E00018A20E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6321B3DF1C7B01E00018A20E;
+			remoteInfo = ZYWQQ;
+		};
+		6321B4051C7B01E10018A20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6321B3D81C7B01E00018A20E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6321B3DF1C7B01E00018A20E;
+			remoteInfo = ZYWQQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286697BBA5A8F4A674B2BBD2 /* Pods_ZYWQQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYWQQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6321B3E01C7B01E00018A20E /* ZYWQQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYWQQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6321B3E41C7B01E00018A20E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6321B3E61C7B01E00018A20E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6321B3E71C7B01E00018A20E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6321B3EF1C7B01E00018A20E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6321B3F21C7B01E00018A20E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6321B3F41C7B01E00018A20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6321B3F91C7B01E10018A20E /* ZYWQQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYWQQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6321B3FD1C7B01E10018A20E /* ZYWQQTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYWQQTests.m; sourceTree = "<group>"; };
+		6321B3FF1C7B01E10018A20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6321B4041C7B01E10018A20E /* ZYWQQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYWQQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6321B4081C7B01E10018A20E /* ZYWQQUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYWQQUITests.m; sourceTree = "<group>"; };
+		6321B40A1C7B01E10018A20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6321B4211C7B26ED0018A20E /* ZYWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWMainViewController.h; sourceTree = "<group>"; };
+		6321B4221C7B26ED0018A20E /* ZYWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWMainViewController.m; sourceTree = "<group>"; };
+		6321B4241C7B27770018A20E /* ZYWRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWRootViewController.h; sourceTree = "<group>"; };
+		6321B4251C7B27770018A20E /* ZYWRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWRootViewController.m; sourceTree = "<group>"; };
+		6321B4271C7B28970018A20E /* ZYWMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWMessageViewController.h; sourceTree = "<group>"; };
+		6321B4281C7B28970018A20E /* ZYWMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWMessageViewController.m; sourceTree = "<group>"; };
+		6321B42A1C7B28BF0018A20E /* ZYWContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWContactViewController.h; sourceTree = "<group>"; };
+		6321B42B1C7B28BF0018A20E /* ZYWContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWContactViewController.m; sourceTree = "<group>"; };
+		6321B42D1C7B28DD0018A20E /* ZYWDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWDynamicViewController.h; sourceTree = "<group>"; };
+		6321B42E1C7B28DD0018A20E /* ZYWDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWDynamicViewController.m; sourceTree = "<group>"; };
+		633C7B031C7C003300880682 /* ZYWContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZYWContainerViewController.h; path = ../ZYWContainerViewController.h; sourceTree = "<group>"; };
+		633C7B041C7C003300880682 /* ZYWContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZYWContainerViewController.m; path = ../ZYWContainerViewController.m; sourceTree = "<group>"; };
+		637A944A1C7C09D9004CB24F /* ZYWSideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWSideView.h; sourceTree = "<group>"; };
+		637A944B1C7C09D9004CB24F /* ZYWSideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWSideView.m; sourceTree = "<group>"; };
+		637A944D1C7C0E7E004CB24F /* UIView+SHCZExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SHCZExt.h"; sourceTree = "<group>"; };
+		637A944E1C7C0E7E004CB24F /* UIView+SHCZExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SHCZExt.m"; sourceTree = "<group>"; };
+		63AFC8321C7C17FC000141AA /* ZYWSideTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWSideTableView.h; sourceTree = "<group>"; };
+		63AFC8331C7C17FC000141AA /* ZYWSideTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWSideTableView.m; sourceTree = "<group>"; };
+		63AFC8351C7C1C24000141AA /* MYDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYDataViewController.h; sourceTree = "<group>"; };
+		63AFC8361C7C1C24000141AA /* MYDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYDataViewController.m; sourceTree = "<group>"; };
+		6A63A3D4102B0A2E7494CD17 /* Pods-ZYWQQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYWQQ.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYWQQ/Pods-ZYWQQ.release.xcconfig"; sourceTree = "<group>"; };
+		F173AE01CCCA09C4ADA14A26 /* Pods-ZYWQQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYWQQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYWQQ/Pods-ZYWQQ.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6321B3DD1C7B01E00018A20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2CAE394916633D06AAD070 /* Pods_ZYWQQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6321B3F61C7B01E10018A20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6321B4011C7B01E10018A20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6321B3D71C7B01E00018A20E = {
+			isa = PBXGroup;
+			children = (
+				6321B3E21C7B01E00018A20E /* ZYWQQ */,
+				6321B3FC1C7B01E10018A20E /* ZYWQQTests */,
+				6321B4071C7B01E10018A20E /* ZYWQQUITests */,
+				6321B3E11C7B01E00018A20E /* Products */,
+				CA47F9F3C9E407BBA2DEC47F /* Pods */,
+				944ED067FB1758E64CC75FD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6321B3E11C7B01E00018A20E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6321B3E01C7B01E00018A20E /* ZYWQQ.app */,
+				6321B3F91C7B01E10018A20E /* ZYWQQTests.xctest */,
+				6321B4041C7B01E10018A20E /* ZYWQQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6321B3E21C7B01E00018A20E /* ZYWQQ */ = {
+			isa = PBXGroup;
+			children = (
+				6321B4161C7B04770018A20E /* Classes */,
+				6321B3E61C7B01E00018A20E /* AppDelegate.h */,
+				6321B3E71C7B01E00018A20E /* AppDelegate.m */,
+				637A944D1C7C0E7E004CB24F /* UIView+SHCZExt.h */,
+				637A944E1C7C0E7E004CB24F /* UIView+SHCZExt.m */,
+				6321B3EF1C7B01E00018A20E /* Assets.xcassets */,
+				6321B3F11C7B01E00018A20E /* LaunchScreen.storyboard */,
+				6321B3F41C7B01E00018A20E /* Info.plist */,
+				6321B3E31C7B01E00018A20E /* Supporting Files */,
+			);
+			path = ZYWQQ;
+			sourceTree = "<group>";
+		};
+		6321B3E31C7B01E00018A20E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6321B3E41C7B01E00018A20E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6321B3FC1C7B01E10018A20E /* ZYWQQTests */ = {
+			isa = PBXGroup;
+			children = (
+				6321B3FD1C7B01E10018A20E /* ZYWQQTests.m */,
+				6321B3FF1C7B01E10018A20E /* Info.plist */,
+			);
+			path = ZYWQQTests;
+			sourceTree = "<group>";
+		};
+		6321B4071C7B01E10018A20E /* ZYWQQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6321B4081C7B01E10018A20E /* ZYWQQUITests.m */,
+				6321B40A1C7B01E10018A20E /* Info.plist */,
+			);
+			path = ZYWQQUITests;
+			sourceTree = "<group>";
+		};
+		6321B4161C7B04770018A20E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6321B4171C7B04770018A20E /* Model */,
+				6321B4181C7B04770018A20E /* Tools */,
+				6321B4191C7B04770018A20E /* View */,
+				6321B41E1C7B04770018A20E /* ViewModel */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6321B4171C7B04770018A20E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6321B4181C7B04770018A20E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6321B4191C7B04770018A20E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				637A94491C7C0835004CB24F /* Container */,
+				6321B41C1C7B04770018A20E /* Main */,
+				6321B41D1C7B04770018A20E /* Message */,
+				6321B41A1C7B04770018A20E /* Contact */,
+				6321B41B1C7B04770018A20E /* Dynamic */,
+				63AFC8351C7C1C24000141AA /* MYDataViewController.h */,
+				63AFC8361C7C1C24000141AA /* MYDataViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6321B41A1C7B04770018A20E /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				6321B42A1C7B28BF0018A20E /* ZYWContactViewController.h */,
+				6321B42B1C7B28BF0018A20E /* ZYWContactViewController.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		6321B41B1C7B04770018A20E /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				6321B42D1C7B28DD0018A20E /* ZYWDynamicViewController.h */,
+				6321B42E1C7B28DD0018A20E /* ZYWDynamicViewController.m */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		6321B41C1C7B04770018A20E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6321B4211C7B26ED0018A20E /* ZYWMainViewController.h */,
+				6321B4221C7B26ED0018A20E /* ZYWMainViewController.m */,
+				6321B4241C7B27770018A20E /* ZYWRootViewController.h */,
+				6321B4251C7B27770018A20E /* ZYWRootViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6321B41D1C7B04770018A20E /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				6321B4271C7B28970018A20E /* ZYWMessageViewController.h */,
+				6321B4281C7B28970018A20E /* ZYWMessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		6321B41E1C7B04770018A20E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		637A94491C7C0835004CB24F /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				633C7B031C7C003300880682 /* ZYWContainerViewController.h */,
+				633C7B041C7C003300880682 /* ZYWContainerViewController.m */,
+				637A944A1C7C09D9004CB24F /* ZYWSideView.h */,
+				637A944B1C7C09D9004CB24F /* ZYWSideView.m */,
+				63AFC8321C7C17FC000141AA /* ZYWSideTableView.h */,
+				63AFC8331C7C17FC000141AA /* ZYWSideTableView.m */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		944ED067FB1758E64CC75FD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				286697BBA5A8F4A674B2BBD2 /* Pods_ZYWQQ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA47F9F3C9E407BBA2DEC47F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F173AE01CCCA09C4ADA14A26 /* Pods-ZYWQQ.debug.xcconfig */,
+				6A63A3D4102B0A2E7494CD17 /* Pods-ZYWQQ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6321B3DF1C7B01E00018A20E /* ZYWQQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6321B40D1C7B01E10018A20E /* Build configuration list for PBXNativeTarget "ZYWQQ" */;
+			buildPhases = (
+				04DB8E0B93F3C79362DA8AD5 /* Check Pods Manifest.lock */,
+				6321B3DC1C7B01E00018A20E /* Sources */,
+				6321B3DD1C7B01E00018A20E /* Frameworks */,
+				6321B3DE1C7B01E00018A20E /* Resources */,
+				D0707275B5DAA847A450579E /* Embed Pods Frameworks */,
+				B2B36BDD8520A869C1641B1D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYWQQ;
+			productName = ZYWQQ;
+			productReference = 6321B3E01C7B01E00018A20E /* ZYWQQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6321B3F81C7B01E10018A20E /* ZYWQQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6321B4101C7B01E10018A20E /* Build configuration list for PBXNativeTarget "ZYWQQTests" */;
+			buildPhases = (
+				6321B3F51C7B01E10018A20E /* Sources */,
+				6321B3F61C7B01E10018A20E /* Frameworks */,
+				6321B3F71C7B01E10018A20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6321B3FB1C7B01E10018A20E /* PBXTargetDependency */,
+			);
+			name = ZYWQQTests;
+			productName = ZYWQQTests;
+			productReference = 6321B3F91C7B01E10018A20E /* ZYWQQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6321B4031C7B01E10018A20E /* ZYWQQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6321B4131C7B01E10018A20E /* Build configuration list for PBXNativeTarget "ZYWQQUITests" */;
+			buildPhases = (
+				6321B4001C7B01E10018A20E /* Sources */,
+				6321B4011C7B01E10018A20E /* Frameworks */,
+				6321B4021C7B01E10018A20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6321B4061C7B01E10018A20E /* PBXTargetDependency */,
+			);
+			name = ZYWQQUITests;
+			productName = ZYWQQUITests;
+			productReference = 6321B4041C7B01E10018A20E /* ZYWQQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6321B3D81C7B01E00018A20E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Devil;
+				TargetAttributes = {
+					6321B3DF1C7B01E00018A20E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6321B3F81C7B01E10018A20E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6321B3DF1C7B01E00018A20E;
+					};
+					6321B4031C7B01E10018A20E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6321B3DF1C7B01E00018A20E;
+					};
+				};
+			};
+			buildConfigurationList = 6321B3DB1C7B01E00018A20E /* Build configuration list for PBXProject "ZYWQQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6321B3D71C7B01E00018A20E;
+			productRefGroup = 6321B3E11C7B01E00018A20E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6321B3DF1C7B01E00018A20E /* ZYWQQ */,
+				6321B3F81C7B01E10018A20E /* ZYWQQTests */,
+				6321B4031C7B01E10018A20E /* ZYWQQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6321B3DE1C7B01E00018A20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6321B3F31C7B01E00018A20E /* LaunchScreen.storyboard in Resources */,
+				6321B3F01C7B01E00018A20E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6321B3F71C7B01E10018A20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6321B4021C7B01E10018A20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04DB8E0B93F3C79362DA8AD5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B36BDD8520A869C1641B1D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYWQQ/Pods-ZYWQQ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0707275B5DAA847A450579E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYWQQ/Pods-ZYWQQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6321B3DC1C7B01E00018A20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AFC8371C7C1C24000141AA /* MYDataViewController.m in Sources */,
+				63AFC8341C7C17FC000141AA /* ZYWSideTableView.m in Sources */,
+				6321B4231C7B26ED0018A20E /* ZYWMainViewController.m in Sources */,
+				6321B4291C7B28970018A20E /* ZYWMessageViewController.m in Sources */,
+				6321B42C1C7B28BF0018A20E /* ZYWContactViewController.m in Sources */,
+				633C7B051C7C003300880682 /* ZYWContainerViewController.m in Sources */,
+				637A944C1C7C09D9004CB24F /* ZYWSideView.m in Sources */,
+				6321B42F1C7B28DD0018A20E /* ZYWDynamicViewController.m in Sources */,
+				6321B3E81C7B01E00018A20E /* AppDelegate.m in Sources */,
+				6321B3E51C7B01E00018A20E /* main.m in Sources */,
+				637A944F1C7C0E7E004CB24F /* UIView+SHCZExt.m in Sources */,
+				6321B4261C7B27770018A20E /* ZYWRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6321B3F51C7B01E10018A20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6321B3FE1C7B01E10018A20E /* ZYWQQTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6321B4001C7B01E10018A20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6321B4091C7B01E10018A20E /* ZYWQQUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6321B3FB1C7B01E10018A20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6321B3DF1C7B01E00018A20E /* ZYWQQ */;
+			targetProxy = 6321B3FA1C7B01E10018A20E /* PBXContainerItemProxy */;
+		};
+		6321B4061C7B01E10018A20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6321B3DF1C7B01E00018A20E /* ZYWQQ */;
+			targetProxy = 6321B4051C7B01E10018A20E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6321B3F11C7B01E00018A20E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6321B3F21C7B01E00018A20E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6321B40B1C7B01E10018A20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6321B40C1C7B01E10018A20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6321B40E1C7B01E10018A20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F173AE01CCCA09C4ADA14A26 /* Pods-ZYWQQ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = ZYWQQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZYWQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6321B40F1C7B01E10018A20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A63A3D4102B0A2E7494CD17 /* Pods-ZYWQQ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = ZYWQQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZYWQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6321B4111C7B01E10018A20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYWQQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZYWQQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYWQQ.app/ZYWQQ";
+			};
+			name = Debug;
+		};
+		6321B4121C7B01E10018A20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYWQQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZYWQQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYWQQ.app/ZYWQQ";
+			};
+			name = Release;
+		};
+		6321B4141C7B01E10018A20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYWQQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZYWQQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYWQQ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6321B4151C7B01E10018A20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYWQQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZYWQQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYWQQ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6321B3DB1C7B01E00018A20E /* Build configuration list for PBXProject "ZYWQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6321B40B1C7B01E10018A20E /* Debug */,
+				6321B40C1C7B01E10018A20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6321B40D1C7B01E10018A20E /* Build configuration list for PBXNativeTarget "ZYWQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6321B40E1C7B01E10018A20E /* Debug */,
+				6321B40F1C7B01E10018A20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6321B4101C7B01E10018A20E /* Build configuration list for PBXNativeTarget "ZYWQQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6321B4111C7B01E10018A20E /* Debug */,
+				6321B4121C7B01E10018A20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6321B4131C7B01E10018A20E /* Build configuration list for PBXNativeTarget "ZYWQQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6321B4141C7B01E10018A20E /* Debug */,
+				6321B4151C7B01E10018A20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6321B3D81C7B01E00018A20E /* Project object */;
+}

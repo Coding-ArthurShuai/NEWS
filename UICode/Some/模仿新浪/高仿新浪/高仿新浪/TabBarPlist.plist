@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>首页</string>
+		<key>controller</key>
+		<string>SXTHomeViewController</string>
+		<key>selected</key>
+		<string>tabbar_home</string>
+		<key>normal</key>
+		<string>tabbar_home_selected</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>消息</string>
+		<key>controller</key>
+		<string>SXTMessageViewController</string>
+		<key>selected</key>
+		<string>tabbar_message_center</string>
+		<key>normal</key>
+		<string>tabbar_message_center_selected</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string></string>
+		<key>controller</key>
+		<string>SXTButtonViewController</string>
+		<key>selected</key>
+		<string>AE4D960E-7978-4432-916B-B17B2BB2E5F3</string>
+		<key>normal</key>
+		<string>AE4D960E-7978-4432-916B-B17B2BB2E5F3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>发现</string>
+		<key>controller</key>
+		<string>SXTDiscoverViewController</string>
+		<key>selected</key>
+		<string>tabbar_discover</string>
+		<key>normal</key>
+		<string>tabbar_discover_selected</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>我</string>
+		<key>controller</key>
+		<string>SXTMyViewController</string>
+		<key>selected</key>
+		<string>tabbar_profile</string>
+		<key>normal</key>
+		<string>tabbar_profile_selected</string>
+	</dict>
+</array>
+</plist>

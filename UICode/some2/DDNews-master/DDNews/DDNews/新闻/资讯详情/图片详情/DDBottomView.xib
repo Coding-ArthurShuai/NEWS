@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DDBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQE-BP-T9c">
+                    <rect key="frame" x="335" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="d10-Y5-EWh"/>
+                    </constraints>
+                    <state key="normal" image="comment_download">
+                        <color key="titleColor" red="0.99321546052631571" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="downloadClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="HgE-Fu-1eY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nI-ER-AI8">
+                    <rect key="frame" x="40" y="0.0" width="24" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <state key="normal" title=" 0" image="comment_button">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="commentCountClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="nUr-Pe-Bar"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOT-NZ-Dgk">
+                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="qUB-3r-KXQ"/>
+                    </constraints>
+                    <state key="normal" image="comment_leftArrow"/>
+                    <connections>
+                        <action selector="backBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="I9U-T5-kMt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9A8-4b-lxN">
+                    <rect key="frame" x="215" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="qXc-y8-aod"/>
+                    </constraints>
+                    <state key="normal" image="comment_comment"/>
+                    <connections>
+                        <action selector="writeClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="1hS-xw-taC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYW-CK-d2v">
+                    <rect key="frame" x="275" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="2El-LC-1v6"/>
+                    </constraints>
+                    <state key="normal" image="comment_ collect"/>
+                    <connections>
+                        <action selector="collecClick:" destination="iN0-l3-epB" eventType="touchDown" id="KeW-7l-t94"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9A8-4b-lxN" secondAttribute="bottom" id="0ct-15-8EF"/>
+                <constraint firstAttribute="bottom" secondItem="0nI-ER-AI8" secondAttribute="bottom" id="4e0-IG-y5C"/>
+                <constraint firstAttribute="trailing" secondItem="OQE-BP-T9c" secondAttribute="trailing" id="BR2-jU-qAr"/>
+                <constraint firstItem="cYW-CK-d2v" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LV9-VB-QZW"/>
+                <constraint firstAttribute="bottom" secondItem="OQE-BP-T9c" secondAttribute="bottom" id="Maz-yc-PvT"/>
+                <constraint firstItem="dOT-NZ-Dgk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Qel-ey-aMw"/>
+                <constraint firstItem="0nI-ER-AI8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Qxd-dr-DWL"/>
+                <constraint firstAttribute="bottom" secondItem="cYW-CK-d2v" secondAttribute="bottom" id="Ru4-q6-42g"/>
+                <constraint firstItem="OQE-BP-T9c" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="W9A-rD-xMI"/>
+                <constraint firstItem="0nI-ER-AI8" firstAttribute="leading" secondItem="dOT-NZ-Dgk" secondAttribute="trailing" id="YhS-zX-enf"/>
+                <constraint firstItem="9A8-4b-lxN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fJd-1O-Xqk"/>
+                <constraint firstItem="cYW-CK-d2v" firstAttribute="leading" secondItem="9A8-4b-lxN" secondAttribute="trailing" constant="20" id="jV2-by-v8m"/>
+                <constraint firstItem="OQE-BP-T9c" firstAttribute="leading" secondItem="cYW-CK-d2v" secondAttribute="trailing" constant="20" id="qRb-UL-JX3"/>
+                <constraint firstItem="dOT-NZ-Dgk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rSp-u5-Cts"/>
+                <constraint firstAttribute="bottom" secondItem="dOT-NZ-Dgk" secondAttribute="bottom" id="roR-yv-ziu"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectBtn" destination="cYW-CK-d2v" id="nho-Zx-nGs"/>
+                <outlet property="commentCount" destination="0nI-ER-AI8" id="lcR-mB-96t"/>
+            </connections>
+            <point key="canvasLocation" x="460.5" y="371"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="comment_ collect" width="20" height="20"/>
+        <image name="comment_button" width="13" height="13"/>
+        <image name="comment_comment" width="22" height="22"/>
+        <image name="comment_download" width="20" height="20"/>
+        <image name="comment_leftArrow" width="20" height="20"/>
+    </resources>
+</document>
